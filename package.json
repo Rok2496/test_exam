@@ -1,0 +1,24 @@
+{
+  "name": "yalla-admin-web-tests",
+  "version": "1.0.0",
+  "description": "Automated tests for Yalla Admin Web application",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:report": "playwright show-report",
+    "install:browsers": "playwright install"
+  },
+  "keywords": [
+    "testing",
+    "playwright",
+    "e2e",
+    "automation"
+  ],
+  "author": "QA Engineer",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.54.2"
+  }
+}
